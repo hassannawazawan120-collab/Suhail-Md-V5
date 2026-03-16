@@ -26,7 +26,7 @@ name: Set up Node.js
       with:
         node-version: ${{ matrix.node-version }}
 
-name: Install dependencies
+name: Install application 
       run: npm install
 
 name: Start application
